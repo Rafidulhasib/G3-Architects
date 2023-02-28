@@ -35,10 +35,12 @@ body {
     height: 200px;
     text-align: center;
 }
-.header-btn{
+
+.header-btn {
     margin-left: 640px;
     padding-bottom: 80px;
 }
+
 .btn {
     background-color: #FF900E;
     width: 280px;
@@ -50,8 +52,45 @@ body {
     border-radius: 25px;
     border: none;
 }
-.header-img , img{
+
+.header-img>img {
     height: 500px;
     padding-bottom: 150px;
-    padding-left: 120px;
+    padding-left: 250px;
+}
+
+/* second section style  */
+
+.second-section {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 500px;
+}
+
+.image-grid {
+
+    box-sizing: border-box;
+    padding: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+}
+
+.image-grid>img {
+    object-fit: cover;
+}
+
+.second-section-text {
+    height: 500px;
+    width: 400px;
+    text-align: start;
+    padding-top: 250px;
+    padding-left: 80px;
+}
+
+.span-text {
+    font-weight: 600;
+    color: #FF900E;
 }
