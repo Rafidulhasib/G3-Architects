@@ -98,7 +98,6 @@ body {
 /* third section style  */
 .third-section{
     display: flex;
-    background-color: ;
 }
 .text-box{
     height: 500px;
@@ -124,4 +123,25 @@ body {
 .third-section-img > img {
     height: 1020px;
     width: 700px;
+}
+
+/* fourth section style */
+
+.fourth-section{
+    margin-top: 150px;
+    margin-left:130px ;
+    text-align: center;
+}
+.fact-box{
+    display: flex;
+}
+.fact{
+    height: 150px;
+    width: 150px;
+    border:solid orange;
+    border-radius: 5px;
+    margin: 55px;
+    text-align: center;
+    padding: 30px;
+    background-color: bisque;
 }
