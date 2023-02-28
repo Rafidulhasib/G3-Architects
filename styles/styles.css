@@ -145,3 +145,16 @@ body {
     padding: 30px;
     background-color: bisque;
 }
+/* fifth section style */
+.fifth-section{
+    margin-top: 150px;
+    text-align: center;
+}
+.sponsors{
+    display: flex;
+    margin-left: 120px;
+    padding: 50px;
+}
+.sponsors > img{
+    padding: 40px;
+}
