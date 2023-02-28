@@ -158,3 +158,13 @@ body {
 .sponsors > img{
     padding: 40px;
 }
+
+/* footer style */
+.footer-text{
+    background-color: antiquewhite;
+    margin-left: 240px;
+    margin-bottom: 120px;
+    text-align: center;
+    height: 40px;
+    width: 1000px;
+}
